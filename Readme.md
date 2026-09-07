@@ -108,11 +108,9 @@ After establishing detection coverage, I authenticated with valid credentials to
 ---
 ## Summary of Evidence Artifacts
 
-
-
 | Evidence | Investigation Phase | Description |
 |---|---|---|
-| ![Evidence 01](Attacker local IP.png) | Reconnaissance | Attacker local IP verification (`192.168.15.137`) |
+| ![Evidence 01](Attacker_Local_IP/1%20%2834%29.png) | Reconnaissance | Attacker local IP verification (`192.168.15.137`) |
 | ![Evidence 02](Evidences/1%20%2837%29.png) | Reconnaissance | Service discovery scan confirming open SMB port |
 | ![Evidence 03](Evidences/1%20%2839%29.png) | Attack Generation | SMB authentication failures generated via `smbclient` |
 | ![Evidence 04](Evidences/1%20%2840%29.png) | Telemetry Verification | Real-time SIEM log capture of EventCode `4625` |
@@ -122,5 +120,9 @@ After establishing detection coverage, I authenticated with valid credentials to
 | ![Evidence 08](Evidences/1%20%2830%29.png) | Alert Testing | Triggered alert actively firing on Splunk dashboard |
 | ![Evidence 09](Evidences/1%20%2843%29.png) | Initial Access | Interactive SMB session established with valid credentials |
 | ![Evidence 10](Evidences/1%20%2844%29.png) | Correlation | Post-compromise log analysis showing EventCode `4624` |
+
+
+
+
 
 
