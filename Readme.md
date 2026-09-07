@@ -110,9 +110,9 @@ After establishing detection coverage, I authenticated with valid credentials to
 
 | Evidence | Investigation Phase | Description |
 |---|---|---|
-| ![Attacker local IP](Attacker%20local%20IP.png) | Reconnaissance | Attacker local IP verification (`192.168.15.137`) |
-| ![Evidence 02](Evidences/1%20%2837%29.png) | Reconnaissance | Service discovery scan confirming open SMB port |
-| ![Evidence 03](Evidences/1%20%2839%29.png) | Attack Generation | SMB authentication failures generated via `smbclient` |
+| ![Attacker local IP](Attacker_Local_IP.png) | Reconnaissance | Attacker local IP verification (`192.168.15.137`) |
+| ![Service Discovery Scan](Service%20discovery_scan_confirming_open_SMB_port.png) | Reconnaissance | Service discovery scan confirming open SMB port |
+| ![SMB Authentication Failures](SMB_authentication_failures.png) | Attack Generation | SMB authentication failures generated via `smbclient` |
 | ![Evidence 04](Evidences/1%20%2840%29.png) | Telemetry Verification | Real-time SIEM log capture of EventCode `4625` |
 | ![Evidence 05](Evidences/1%20%2826%29.png) | Log Analysis | Formatted table breaking down failed login events |
 | ![Evidence 06](Evidences/1%20%2827%29.png) | Rule Engineering | Time-binned detection query evaluating threshold breaches |
