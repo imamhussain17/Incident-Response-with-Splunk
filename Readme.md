@@ -114,12 +114,12 @@ After establishing detection coverage, I authenticated with valid credentials to
 | ![Service Discovery Scan](Service%20discovery_scan_confirming_open_SMB_port.png) | Reconnaissance | Service discovery scan confirming open SMB port |
 | ![SMB Authentication Failures](SMB_authentication_failures.png) | Attack Generation | SMB authentication failures generated via `smbclient` |
 | ![SIEM Log Capture](SIEM_log_Capture.png) | Telemetry Verification | Real-time SIEM log capture of EventCode `4625` |
-| ![Evidence 05](Evidences/1%20%2826%29.png) | Log Analysis | Formatted table breaking down failed login events |
-| ![Evidence 06](Evidences/1%20%2827%29.png) | Rule Engineering | Time-binned detection query evaluating threshold breaches |
-| ![Evidence 07](Evidences/1%20%2833%29.png) | Alert Tuning | Throttle settings and account suppression configuration |
-| ![Evidence 08](Evidences/1%20%2830%29.png) | Alert Testing | Triggered alert actively firing on Splunk dashboard |
-| ![Evidence 09](Evidences/1%20%2843%29.png) | Initial Access | Interactive SMB session established with valid credentials |
-| ![Evidence 10](Evidences/1%20%2844%29.png) | Correlation | Post-compromise log analysis showing EventCode `4624` |
+| ![Failed Login Events](Failed_login_events.png) | Log Analysis | Formatted table breaking down failed login events |
+| ![Query Evaluating](Query_Evaluating.png) | Rule Engineering | Time-binned detection query evaluating threshold breaches |
+| ![Alert Tuning](Alert_Tuning.png) | Alert Tuning | Throttle settings and account suppression configuration |
+| ![Alert Testing](Alert_Testing.png) | Alert Testing | Triggered alert actively firing on Splunk dashboard |
+| ![SMB Session Established](SMB_Session_Established_with_valid_Credentials.png) | Initial Access | Interactive SMB session established with valid credentials |
+| ![Compromised Log Analysis](Compromised_log_Analysis.png) | Correlation | Post-compromise log analysis showing EventCode `4624` |
 
 
 
