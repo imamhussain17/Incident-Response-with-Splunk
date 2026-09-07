@@ -106,18 +106,21 @@ After establishing detection coverage, I authenticated with valid credentials to
 * **Attack Reconstruction:** Connected network layer activity with endpoint log evidence to build a full incident timeline.
 
 ---
-
 ## Summary of Evidence Artifacts
 
-| Image | Investigation Phase | Description |
-| --- | --- | --- |
-| `1 (34).png` | Reconnaissance | Attacker local IP verification (`192.168.15.137`) |
-| `1 (37).png` | Reconnaissance | Service discovery scan confirming open SMB port |
-| `1 (39).png` | Attack Generation | SMB authentication failures generated via `smbclient` |
-| `1 (40).png` | Telemetry Verification | Real-time SIEM log capture of EventCode 4625 |
-| `1 (26).png` | Log Analysis | Formatted table breaking down failed login events |
-| `1 (27).png` | Rule Engineering | Time-binned detection query evaluating threshold breaches |
-| `1 (33).png` | Alert Tuning | Throttle settings and account suppression configuration |
-| `1 (30).png` | Alert Testing | Triggered alert actively firing on Splunk dashboard |
-| `1 (43).png` | Initial Access | Interactive SMB session established with valid credentials |
-| `1 (44).png` | Correlation | Post-compromise log analysis showing EventCode 4624 |
+
+
+| Evidence | Investigation Phase | Description |
+|---|---|---|
+| ![Evidence 01](Evidences/1%20%2834%29.png) | Reconnaissance | Attacker local IP verification (`192.168.15.137`) |
+| ![Evidence 02](Evidences/1%20%2837%29.png) | Reconnaissance | Service discovery scan confirming open SMB port |
+| ![Evidence 03](Evidences/1%20%2839%29.png) | Attack Generation | SMB authentication failures generated via `smbclient` |
+| ![Evidence 04](Evidences/1%20%2840%29.png) | Telemetry Verification | Real-time SIEM log capture of EventCode `4625` |
+| ![Evidence 05](Evidences/1%20%2826%29.png) | Log Analysis | Formatted table breaking down failed login events |
+| ![Evidence 06](Evidences/1%20%2827%29.png) | Rule Engineering | Time-binned detection query evaluating threshold breaches |
+| ![Evidence 07](Evidences/1%20%2833%29.png) | Alert Tuning | Throttle settings and account suppression configuration |
+| ![Evidence 08](Evidences/1%20%2830%29.png) | Alert Testing | Triggered alert actively firing on Splunk dashboard |
+| ![Evidence 09](Evidences/1%20%2843%29.png) | Initial Access | Interactive SMB session established with valid credentials |
+| ![Evidence 10](Evidences/1%20%2844%29.png) | Correlation | Post-compromise log analysis showing EventCode `4624` |
+
+
